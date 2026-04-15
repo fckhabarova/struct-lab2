@@ -112,7 +112,7 @@ void HashTable<T>::rehash() {
     }
 }
 
-//формат файла : название автор год
+//формат файла : название,автор,год
 template<typename T>
 bool HashTable<T>::loadFromFile(std::string filename) {
     std::ifstream file(filename);
